@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 jun 2023, 22:18:40
+    Author     : juand
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*----------------------------------------------------------------------------*/
+.encabezado
+{
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #009900;
+    position: fixed;
+}
+/*----------------------------------------------------------------------------*/
+.navegacion
+{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;  
+}
+/*----------------------------------------------------------------------------*/
+.clear
+{
+    text-decoration: none;
+    color: white;
+}
+/*----------------------------------------------------------------------------*/
+.logo
+{
+    font-size: 60px;
+    font-weight: bold;
+    background-color: black;
+    padding: 0 10px;
+    line-height: 80px
+}
+/*----------------------------------------------------------------------------*/
+.alinear
+{
+    list-style: none;
+    margin-right: 80px;
+    display: flex; 
+}
+/*----------------------------------------------------------------------------*/
+.interfaces
+{
+    font-size: 18px;
+    margin: 0 80px;
+    line-height: 80px;
+}
+/*----------------------------------------------------------------------------*/
+.extension
+{
+    padding: 8px 40px;
+}
+/*----------------------------------------------------------------------------*/
+.extension:hover
+{
+    border-radius: 0px;
+    background-color: #33cc00;
+}
+/*----------------------------------------------------------------------------*/
+body
+{
+    padding: 80px 10px 0;
+    background-color: beige;
+}
+/*----------------------------------------------------------------------------*/
+.titulo
+{
+    font-size: 50px;
+    text-align: center;
+}
+/*----------------------------------------------------------------------------*/
+hr
+{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+/*----------------------------------------------------------------------------*/
+footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 90px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+/*----------------------------------------------------------------------------*/
+.footexcepcion
+{
+    height: 500px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
